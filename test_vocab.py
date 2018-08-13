@@ -37,3 +37,7 @@ print("doesnt_match of: [tím xanh đỏ mềm]")
 print(w2v_model.wv.doesnt_match("tím xanh đỏ mềm".split()))
 
 print("====================================================================")
+
+
+# access word2vector
+print(w2v_model.wv['điện_thoại'])
